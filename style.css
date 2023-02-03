@@ -36,11 +36,11 @@ nav{
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     position: absolute;
-    left: 115px;
-    top: 10px;
+    left: 60px;
+    top: -45px;
 }
 
 nav ul li{
@@ -61,7 +61,7 @@ nav ul li a::after{
 content: '';
 width: 0;
 height: 3px;
-background: #ff004f;
+background: #02D0DF;
 position: absolute;
 left: 0;
 bottom: -6px; 
@@ -83,7 +83,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color: #ff004f; 
+    color: #02D0DF; 
 }
 
 /* -------------About----------- */
@@ -140,7 +140,7 @@ nav ul li a:hover::after{
 content: ''; 
 width: 0;
 height: 3px;
-background: #ff004f;
+background: #02D0DF;
 position: absolute;
 left: 0;
 bottom: -8px; 
@@ -159,7 +159,7 @@ width: 50%
 }
 
 .tab-contents ul li span{
-    color: #ff004f;
+    color: #02D0DF;
     font-size: 17px;
 }
 
@@ -212,7 +212,7 @@ width: 50%
 }
 
 .services-list div:hover{
-background: #ff004f;
+background: #02D0DF;
 transform: translateY(-10px);
 }
 
@@ -245,7 +245,7 @@ padding: 50px 0;
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #02D0DF);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -268,7 +268,7 @@ padding: 50px 0;
 
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #02D0DF;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -291,7 +291,7 @@ padding: 50px 0;
     display:block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #02D0DF;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -301,7 +301,7 @@ padding: 50px 0;
 }
 
 .btn:hover{
-    background: #ff004f;
+    background: #02D0DF;
 }
 
 /* ----------------contact---------------- */
@@ -319,7 +319,7 @@ padding: 50px 0;
 }
 
 .contact-left p i{
-    color: #ff004f;
+    color: #02D0DF;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -338,13 +338,15 @@ padding: 50px 0;
 }
 
 .social-icons a:hover{
-    color: #ff004f;
+    color: #02D0DF;
     transform: translateY(-5px);
 }
 
 .btn.btn2{
     display: inline-block;
-    background: #ff004f; 
+    background: #02D0DF;
+    -webkit-text-fill-color: black; 
+    font-weight: bold;
 }
 
 .contact-right form{
