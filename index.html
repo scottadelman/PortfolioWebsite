@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/7c15ea3844.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class = "container">
+            <nav>   
+                <img src = "images/Logo.png" class = "logo">
+                <ul id = "list">
+                    <li><a href = "">Home</a></li>
+                    <li><a href = "">About</a></li>
+                    <li><a href = "">Services</a></li>
+                    <li><a href = "">Portfolio</a></li>
+                    <li><a href = "">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Scott Adelman</span><br> and I'm from New York</h1>
+            </div>
+        </div> 
+    </div>
+<!-- --------------------------------About---------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src = "images/Snowboarding.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class = "sub-title">About Me</h1>
+                    <p>Hello, my name is Scott and I currently live in Denver, Colorado. I have my degree in Civil Engineering Technology.
+                        I've always had a love for computers, causing a decision to switch careers. I have Co-Founded a company making offroad
+                        lights for cars but gave that up to persue a career in Software Development. My specialty is C# but I am also proficient
+                        in SQL, HTML, CSS, JavaScript, and ASP.Net MVC.
+                    </p>
+                    <div class="tab-titles">
+                        <p class = "tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                        <p class = "tab-links" onclick = "opentab('experience')">Experience</p>
+                        <p class = "tab-links" onclick = "opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id = "skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Full-Stack Developer</li>
+                            <li><span>Co-Founder</span><br>Business Developer</li>
+                            <li><span>Leadership</span><br>Teamwork</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "experience">
+                        <ul>
+                            <li><span>Boulder Creek Technologies</span><br>Mechanical/Design Engineer (September 2021 - March 2022)</li>
+                            <li><span>Armor Light Co</span><br>Co-Founder (July 2021 - May 2022)</li>
+                            <li><span>Power 10 Fitness Club</span><br>Manager (December 2016 - July 2021) </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "education">
+                        <ul>
+                            <li><span>Nassau Community College</span><br>Associates of Science - Civil Engineering Technology </li>
+                            <li><span>TrueCoders</span><br>Full-Stack Software Development (C#, CSS, HTML, JavaScript) </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------- Services ---------- -->
+    <div id = "services">
+        <div class="container">
+            <h1 class = "sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>HTML and CSS</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>C#, JavaScript, SQL</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>ASP.Net MVC</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------Portfolio--------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class = "sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src = "images/phone.png">
+                    <div class = "layer">
+                        <h3>Flight Tracker Application</h3>
+                        <p>This app allows people to do basic tracking for flights.
+                            With only the flight number and date, you can see all the information
+                            you would need for your upcoming flight! (Further application development underway.)  </p>
+                        <a href = "#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src = "images/TacoBell.png">
+                    <div class = "layer">
+                        <h3>Tacobell Geolocator</h3>
+                        <p>The program uses a CSV file or a SQL database to populate an IEnumerable<Tacobell> called locations
+                           The prgram then utilizes the Geolocator NuGet package, the program will calculate the two farthest Tacobells</p>
+                        <a href = "#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src = "images/profile.png">
+                    <div class = "layer">
+                        <h3>Portfolio Website</h3>
+                        <p>This wesbite is an overview of my personal portfolio which was done through HTML, CSS, and JavaScript </p>
+                        <a href = "#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div> 
+            </div>
+            <a href="#" class = "btn">See more</a>
+        </div>
+    </div>
+    
+
+    <!-- -----------------contact-------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class = "sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ScottAdelman97@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>(516) 761-8268</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/scottnadelman/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/scottadelman"><i class="fab fa-GitHub"></i></a>
+                        <a href="https://www.codewars.com/users/scottadelman"><i class="fab fa-CodeWars"></i></a>
+                    </div>
+                    <a href="*******" download class= "btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name = "Name" placeholder = "Your Name" required>
+                        <input type="text" name = "email" placeholder = "Your Email" required>
+                        <textarea name="Message" rows="6" placeholder = "Your Message"></textarea>
+                        <button type="submit" class = "btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Scott N. Adelman</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+</html>
