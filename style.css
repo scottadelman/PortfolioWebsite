@@ -23,11 +23,14 @@ body{
     background-position: center; 
 }
 
-#list{
-    position:absolute;
+#HeaderList{
+    position: fixed;
     top: 20px; 
     left: 60%;
+    z-index: 999;
+    background-color: #080808;   
 }
+
 
 .container{
     padding: 10px 10%; 
@@ -94,6 +97,8 @@ nav ul li a:hover::after{
 .header-text h3{
     margin-top: 0px;
 }
+
+
 
 
 /* -------------About----------- */
